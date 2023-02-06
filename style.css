@@ -1,1 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+header, footer{
+    background-color: #1F2937;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.cta-container, .bouton-rdv{
+    background-color: #3882F6;
+}
