@@ -70,20 +70,46 @@ h2{
 }
 
 /* LAYOUTS */
-
-header{
-    padding: 15px 150px 0 150px;
-}
-
 nav{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    width: 1500px;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .link-list{
     display: flex;
-    gap: 35px;
-    margin-left: auto;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+
+@media(max-width: 812px){
+    .navbar{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .link-list{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .logo{
+        padding: 0 0 20px 0;
+    }
+}
+
+.link-list *{
+    flex: 1 0 auto;
 }
 
 .header-content{
