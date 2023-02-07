@@ -197,3 +197,8 @@ a:hover{
 .bouton-rdv:hover{
     background-color: #3881f6ab;
 }
+
+.photo-section h2{
+    text-align: center;
+    margin: 50px 0;
+}
