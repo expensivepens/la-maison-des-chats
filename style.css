@@ -77,7 +77,7 @@ nav{
 }
 
 .navbar{
-    width: 1500px;
+    width: 1300px;
     padding: 15px 30px;
     display: flex;
     align-items: center;
@@ -91,6 +91,9 @@ nav{
     flex-wrap: wrap;
 }
 
+a:hover{
+    color: #ffffff;
+}
 
 @media(max-width: 812px){
     .navbar{
@@ -112,9 +115,15 @@ nav{
     flex: 1 0 auto;
 }
 
-.header-content{
+.header-content-container{
     display: flex;
-    padding: 150px 0 150px 0;
+    justify-content: center;
+}
+
+.header-content{
+    width: 1300px;
+    display: flex;
+    padding: 150px 30px;
 }
 
 .header-text{
@@ -135,8 +144,7 @@ nav{
 }
 
 .header-content img{
-    width: 800px;
-    /* height: 360px;  */
+    width: 650px;
     max-width: 100%;
     height: auto;
     object-fit: contain;
