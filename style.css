@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
+/* FONTS AND COLORS */
 body{
     margin: 0;
     font-family: Roboto, sans-serif;
@@ -64,4 +65,18 @@ h2{
 
 .cta-copy{
     color: #E5E7EB;
+}
+
+/* LAYOUTS */
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 15px 150px 0 150px;
+}
+
+.link-list{
+    display: flex;
+    gap: 35px;
+    margin-left: auto;
 }
