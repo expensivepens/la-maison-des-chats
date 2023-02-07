@@ -71,14 +71,59 @@ h2{
 
 /* LAYOUTS */
 
+header{
+    padding: 15px 150px 0 150px;
+}
+
 nav{
     display: flex;
     align-items: center;
-    padding: 15px 150px 0 150px;
 }
 
 .link-list{
     display: flex;
     gap: 35px;
     margin-left: auto;
+}
+
+.header-content{
+    display: flex;
+    padding: 150px 0 150px 0;
+}
+
+.header-text{
+    padding: 0 30px 0 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.header-text h1{
+    max-width: 600px;
+}
+
+.header-paragraph{
+    max-width: 700px;
+}
+
+.header-content img{
+    width: 800px;
+    /* height: 360px;  */
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.bouton-rdv{
+    display: inline;
+    padding: 7px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bouton-rdv:hover{
+    background-color: #3881f6ab;
 }
