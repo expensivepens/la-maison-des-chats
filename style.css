@@ -10,7 +10,7 @@ header, footer{
     background-color: #1F2937;
 }
 
-.quote{
+.testimonial{
     background-color: #E5E7EB;
 }
 
@@ -224,5 +224,9 @@ a:hover{
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+.testimonial{
+    padding: 100px 450px 100px 500px;
 }
