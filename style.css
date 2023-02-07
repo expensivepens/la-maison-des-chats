@@ -201,6 +201,7 @@ a:hover{
 .photo-section h2{
     text-align: center;
     margin: 50px 0;
+    padding: 0 20px;
 }
 
 .photo-container-container{
@@ -216,6 +217,7 @@ a:hover{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .photo-section img{
