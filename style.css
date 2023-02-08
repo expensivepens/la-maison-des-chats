@@ -256,3 +256,28 @@ blockquote p{
     align-self: flex-end;
     padding-right: 500px;
 }
+
+.cta{
+    display: flex; 
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.cta-container{
+    padding: 40px 150px;    
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.cta p{
+    margin: 0;
+}
+
+.cta .bouton-rdv{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
