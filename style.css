@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
-/* FONTS AND COLORS */
+                                    /* FONTS AND COLORS */
+
 body{
     margin: 0;
     font-family: Roboto, sans-serif;
@@ -48,7 +49,7 @@ h2{
     color: #1F2937;
 }
 
-.testimonial{
+.testimonial-paragraph{
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
@@ -69,7 +70,8 @@ h2{
     color: #E5E7EB;
 }
 
-/* LAYOUTS */
+                                    /* LAYOUTS */
+
 nav{
     display: flex;
     align-items: center;
@@ -198,10 +200,14 @@ a:hover{
     background-color: #3881f6ab;
 }
 
+.photo-section{
+    padding: 50px 0;
+}
+
 .photo-section h2{
     text-align: center;
-    margin: 50px 0;
     padding: 0 20px;
+    margin: 0 0 50px 0; 
 }
 
 .photo-container-container{
@@ -210,12 +216,12 @@ a:hover{
 }
 
 .two{
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .photo-container{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -228,5 +234,25 @@ a:hover{
 }
 
 .testimonial{
-    padding: 100px 450px 100px 500px;
+    /* padding: 100px 350px 100px 350px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial p{
+    margin: 0;
+}
+
+blockquote{
+    margin-bottom: 10px;
+}
+
+blockquote p{
+    max-width: 800px;
+}
+
+.testimonial .testimonial-author{
+    align-self: flex-end;
+    padding-right: 500px;
 }
