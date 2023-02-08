@@ -269,13 +269,17 @@ blockquote p{
 
 .cta-container{
     width: 1300px;
-    padding: 40px 0;
+    padding: 40px 40px;
     margin: 0 60px;
     border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.cta .cta-title{
+    margin-bottom: 5px;
 }
 
 .cta p{
@@ -287,6 +291,17 @@ blockquote p{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+@media(max-width: 967px){
+    .cta-container .bouton-rdv{
+        margin-top: 20px;
+    }
+
+    .cta-container p{
+        text-align: center;
+    }
 }
 
 footer{
