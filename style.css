@@ -294,6 +294,10 @@ blockquote p{
     text-align: center;
 }
 
+.cta .bouton-rdv:hover{
+    background-color: #4287f7;
+}
+
 @media(max-width: 967px){
     .cta-container .bouton-rdv{
         margin-top: 20px;
