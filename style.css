@@ -241,6 +241,18 @@ a:hover{
     justify-content: center;
 }
 
+@media(max-width: 454px){
+    .photo-container{
+        gap: 10px;
+    }
+}
+
+@media(max-width: 450px){
+    .photo-container{
+        gap: 30px;
+    }
+}
+
 .photo-section img{
     width: 200px;
     height: 200px;
