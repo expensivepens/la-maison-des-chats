@@ -60,6 +60,16 @@ h2{
     font-weight: bold;
 }
 
+@media(max-width: 904px){
+    .testimonial-paragraph{
+        font-size: 25px;
+    }
+
+    .testimonial-author{
+        font-size: 17px;
+    }
+}
+
 .cta-title{
     color:#F9FAF8;
     font-weight: 400;
@@ -256,9 +266,17 @@ blockquote p{
     max-width: 800px;
 }
 
-.testimonial .testimonial-author{
-    align-self: flex-end;
-    padding-right: 500px;
+.testimonial-author-container-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.testimonial-author-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    padding-right: 20px;
 }
 
 .cta{
